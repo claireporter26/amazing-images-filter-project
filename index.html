@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Photograph Filter Project</title>
+</head>
+<body>
+    
+    <div class="main-container">
+        <h1 class="title">Amazing Photos!</h1>
+        <h4 class="subtitle">Filter by Type of Photo</h4>
+        <button class="filter-btn" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="insect">Insects</button>
+        <button class="filter-btn" data-filter="animal">Animals</button>
+        <button class="filter-btn" data-filter="portrait">Portraits</button>
+        <button class="filter-btn" data-filter="landscape">Landscapes</button>
+
+        <div class="grid">
+            <div class="img-container insect" data-item="insect">
+                <img src="images/img-bumblebee.jpg" alt="bumblebee">
+            </div>
+            <div class="img-container insect" data-item="insect">
+                <img src="images/img-dragonfly.jpg" alt="dragonfly">
+            </div>
+            <div class="img-container landscape" data-item="landscape">
+                <img src="images/img-durdledoor.jpg" alt="durdledoor">
+            </div>
+            <div class="img-container animal" data-item="animal">
+                <img src="images/img-fox.jpg" alt="fox">
+            </div>
+            <div class="img-container landscape" data-item="landscape">
+                <img src="images/img-heather_landscape.jpg" alt="heather landscape with sheep">
+            </div>
+            <div class="img-container insect" data-item="insect">
+                <img src="images/img-honeybee.jpg" alt="honeybee">
+            </div>
+            <div class="img-container animal" data-item="animal">
+                <img src="images/img-lion.jpg" alt="lion">
+            </div>
+            <div class="img-container portrait" data-item="portrait">
+                <img src="images/img-man_closeup.jpg" alt="close up of man's face">
+            </div>
+            <div class="img-container portrait" data-item="portrait">
+                <img src="images/img-man_portrait.jpg" alt="portrait of man">
+            </div>
+            <div class="img-container portrait" data-item="portrait">
+                <img src="images/img-man_with_dblbase.jpg" alt="portrait of man with double base">
+            </div>
+            <div class="img-container animal" data-item="animal">
+                <img src="images/img-monkeys.jpg" alt="monkeys">
+            </div>
+            <div class="img-container landscape" data-item="landscape">
+                <img src="images/img-waterfall.jpg" alt="waterfall">
+            </div>
+        </div>
+        
+        <footer>Photographs supplied by <a href="https://benporterphoto.com/">Ben Porter Photography</a></footer>
+    </div>
+
+    
+    
+    <script src="app.js"></script>
+
+</body>
+</html>
